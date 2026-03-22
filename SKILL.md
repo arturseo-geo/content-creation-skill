@@ -97,7 +97,9 @@ Sections:
 
 ---
 
-## Repurposing Matrix
+## Content Repurposing
+
+### Repurposing Matrix
 When the user wants to repurpose content:
 
 | Source → | Blog Post | LinkedIn | X Thread | Email | YouTube Script |
@@ -106,6 +108,90 @@ When the user wants to repurpose content:
 | Podcast ep. | Transcribe + expand | 5 quotes + lesson | Thread of tips | Episode summary | Repurpose audio to video |
 | YouTube | Blog from transcript | 3 lessons | Best moments thread | Summary + link | — |
 | Case study | Full blog post | Result story | Before/after thread | Client win email | Testimonial video script |
+
+### Repurposing Workflow (Blog → Multi-Platform)
+1. **Blog post** → published on website (SEO anchor)
+2. **LinkedIn post** → extract the single boldest insight + personal angle
+3. **X/Twitter thread** → break key points into numbered tweets
+4. **Email** → send to list with a unique angle or exclusive detail
+5. **Instagram carousel** → visualize 5–7 key points as slides
+6. **YouTube short / Reel** → 60-second spoken version of the hook + main takeaway
+7. **Newsletter** → curate with 2–3 other pieces for weekly digest
+
+Rule: each platform version must feel native, not copy-pasted. Adjust tone, length, and CTA per platform.
+
+See `references/repurposing.md` for detailed workflows.
+
+---
+
+## Brand Voice & Tone Consistency
+When generating content for a brand:
+- **Define voice attributes**: Pick 3–5 adjectives (e.g., bold, empathetic, precise)
+- **Create a "We say / We don't say" list**: e.g., "We say 'people' not 'users'"
+- **Maintain consistency across platforms**: Same voice, different tone per context (LinkedIn = professional-warm, X = punchy-bold, email = personal-direct)
+- **Tone spectrum**: Map content types on a scale from formal → casual. Whitepapers sit formal; social sits casual. The voice stays the same.
+- If a brand voice file exists (`.agents/product-marketing-context.md` or similar), apply it automatically to every piece.
+
+---
+
+## Content Calendar & Editorial Planning
+When helping with content strategy:
+- **Weekly cadence**: Recommend 2–3 blog posts, 5 social posts, 1 email, 1 long-form per week (adjust to capacity)
+- **Theme weeks**: Group content around a single topic for compounding SEO and audience clarity
+- **Content pillars**: Identify 3–5 recurring themes that map to business goals (e.g., product education, industry trends, customer stories)
+- **Seasonal hooks**: Flag relevant dates, industry events, or trending moments to build content around
+- **Pipeline stages**: Idea → Brief → Outline → Draft → Edit → Approve → Publish → Distribute → Measure
+- **Batch creation**: Write multiple pieces in one sitting, schedule across the week — reduces context-switching
+
+---
+
+## SEO-Optimized Content Creation
+For any content targeting search:
+- **Primary keyword**: Place in title, H1, first 100 words, meta description, URL slug
+- **Secondary keywords**: Weave 2–4 related terms naturally through H2s and body
+- **Meta description**: 150–160 chars, include keyword + benefit + CTA
+- **Internal linking**: Link to 2–5 related pages. Use descriptive anchor text, not "click here"
+- **External linking**: 1–3 authoritative sources per post to build trust signals
+- **Content depth**: Aim to be the most comprehensive answer — cover subtopics competitors miss
+- **Featured snippet targeting**: Use a direct answer (40–60 words) right after the question heading
+- **Image alt text**: Describe the image + include keyword where natural
+- **URL structure**: Short, keyword-rich, no dates (evergreen by default)
+
+See `references/seo-content.md` for detailed SEO writing guidelines.
+
+---
+
+## AI-Assisted Content Workflow
+Recommended process for using Claude to create content:
+1. **Outline**: Generate a structured outline with H2/H3 sections and key points per section
+2. **Draft**: Expand the outline into a full draft — section by section for long-form
+3. **Edit pass 1 — Accuracy**: Verify claims, check stats, add sources
+4. **Edit pass 2 — Voice**: Apply brand tone, remove AI-isms, add personality
+5. **Edit pass 3 — SEO**: Check keyword placement, meta description, internal links
+6. **Human review**: Final read by a human — add personal stories, adjust nuance
+7. **Publish + distribute**: Post and trigger repurposing workflow
+
+Tips:
+- Always provide context (audience, goal, tone) before asking for a draft
+- Generate multiple headline options and A/B test
+- Use Claude for first drafts, not final drafts — human polish is the differentiator
+
+---
+
+## Platform-Specific Formatting Quick Reference
+
+| Platform | Max Length | Format Notes |
+|---|---|---|
+| LinkedIn feed post | 3,000 chars | Hook in first line; no links in body; use line breaks |
+| LinkedIn article | 125,000 chars | Long-form; supports images, headers |
+| X / Twitter | 280 chars/tweet | Threads: number tweets; standalone hook in tweet 1 |
+| Instagram caption | 2,200 chars | First 2 lines visible; hashtags at end or first comment |
+| YouTube description | 5,000 chars | First 200 chars matter most; timestamps; links |
+| Email subject | 40–50 chars | Preview text: 80–100 chars |
+| Blog post (SEO) | 1,500–3,000 words | H2 every 200–300 words; images every 500 words |
+| TikTok caption | 2,200 chars | First line is the hook; 3–5 hashtags |
+
+See `references/platforms.md` for full platform guidelines.
 
 ---
 
@@ -117,6 +203,9 @@ When the user wants to repurpose content:
 - **One idea per paragraph** for digital content
 - **Read aloud test**: If it sounds weird spoken, rewrite it
 - **No throat-clearing**: Don't open with "In today's post, we will..."
+- **Front-load value**: Put the most important information first — readers skim
+- **Pattern interrupts**: Break visual monotony with bold text, short paragraphs, questions
+- **Sensory language**: Use concrete, visual words over abstract concepts
 
 ---
 
@@ -126,6 +215,15 @@ Always deliver:
 2. Any variants requested (e.g., 3 subject line options)
 3. A one-line note on any assumption made about tone/audience
 4. Optional: suggested posting time or distribution tip
+
+---
+
+## Reference Files
+This skill includes detailed reference guides in the `references/` directory:
+- `references/platforms.md` — Platform-specific content rules, character limits, formatting, posting times
+- `references/templates.md` — Ready-to-use content templates for common formats
+- `references/repurposing.md` — Content repurposing workflows and strategies
+- `references/seo-content.md` — SEO writing best practices for content creators
 
 ---
 

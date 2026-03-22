@@ -19,6 +19,15 @@ git clone https://github.com/arturseo-geo/content-creation-skill.git ~/.claude/s
 ## File Structure
 
 - `SKILL.md` — Core skill instructions covering content types, tone guidelines, platform-specific formats, and repurposing workflows
+- `references/platforms.md` — Platform-specific content rules (character limits, formatting, best times to post)
+- `references/templates.md` — Ready-to-use content templates for common formats (blog posts, emails, social posts, scripts)
+- `references/repurposing.md` — Content repurposing workflows and strategies
+- `references/seo-content.md` — SEO writing best practices for content creators
+- `CONTRIBUTING.md` — Contribution guidelines
+- `SECURITY.md` — Security policy
+- `.github/ISSUE_TEMPLATE/bug-report.md` — Bug report template
+- `.github/ISSUE_TEMPLATE/platform-update.md` — Content platform update template
+- `.github/pull_request_template.md` — PR template
 
 ## Related Repos
 
